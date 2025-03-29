@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename="/web-prog">
       <Routes>
         <Route element={<Home />} />
         <Route path="/character/:id" element={<CharacterDetail />} />
